@@ -1,0 +1,7 @@
+p{
+    color:Red;
+}
+
+.navbar li {
+    display: inline-block;
+}

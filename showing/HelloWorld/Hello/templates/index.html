@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'Hello/styles.css' %}">
+    <title>Home page</title>
+</head>
+<body>
+    <h1>This is my homepage</h1>
+    <p>Här finns allt på min homepage</p>
+    {% block form%}
+    <form action="{% url 'add' %}" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value="Add">
+    </form>
+    {% endblock %}
+
+    <ul>
+        {% for task in tasklist %}
+        <li>{{task}}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

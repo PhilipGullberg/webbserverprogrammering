@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="thanks.html" style="padding:20px;">
+        <p>Fill in your information</p>
+        <br>
+        <label for="input">Fullname:</label>
+        <input type="text"></input>
+        <br>
+        <br>
+        <label for="input">Your Age:</label>
+        <input type="text"></input>
+        <br>
+        <br>
+        <label>Choose your favorite browser: </label>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+        </datalist>
+        <br>
+        <br>
+        <label for="input">Your Gender:</label>
+        <br>    
+        <input type="radio" id="Male" name="fav_language" value="Male">
+        <label for="Male">Male</label><br>
+        <input type="radio" id="Female" name="fav_language" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" id="Programmer" name="fav_language" value="Programmer">
+        <label for="Programmer">Programmer</label>
+        <br>
+        <br>
+        <input style="width:5%" type="submit">
+
+    </form>
+</body>
+</html>

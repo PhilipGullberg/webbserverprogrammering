@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content%}
+    <h1>About us</h1>
+    <p>Mitt namn är {{ name }} och detta är min inköpslista</p>
+    <ul>
+        {% for item in lista%}
+            <li>{{ item }} </li>
+        {% endfor %}
+    </ul>
+    
+   
+    
+
+{% endblock %}

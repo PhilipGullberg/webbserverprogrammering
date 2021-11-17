@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Lato;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(97, 95, 95);
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px; 
+}
+
+body{
+    background: #EE7C74;
+}
+
+li{
+    display:inline-block;
+    font-family: Lato;
+    margin-left: 5%;
+    font-size: 90%;
+    font-weight: bold;
+}
+.navbar{
+    background: white;
+    box-shadow:2px 2px 5px grey;
+    padding: 30px 20px 30px 20px;
+    color:#3d3c3c;
+    padding-left:8%;
+
+}
+.icon{
+    float:right;
+    margin-right: 10%;
+    font-size: 40px;
+    transform: rotate(-40deg);
+    margin-bottom: 100%;
+    margin-top: -0.8%;
+}
+.hero{
+    width:44%;  
+    color:white;
+    margin-top: 7%;
+    margin-left:27%;
+    text-align: center;
+}
+#header{
+    font-size: 36px;
+    font-weight: bold;
+}
+#text{
+    margin-top: 2%;
+    font-size: 19px;
+}
+.images h1{
+    font-size: 100%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+.images{
+    font-size: 95%;
+    margin-left: 15%;
+    text-align: center;
+}
+.images div{
+    display:inline-block;
+    color:white;
+    margin-left:4%;
+    margin-top: 5%;
+}
+.card p{
+    text-align: center ;
+    padding:2px;
+}
